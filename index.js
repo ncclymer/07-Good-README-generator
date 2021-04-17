@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-// const generateREADME = require('/generateReadme')
+
 const writeFileAsync = util.promisify(fs.writeFile);
 
 const promptUser = () => {
