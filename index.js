@@ -90,7 +90,7 @@ function generateREADME(response) {
   ## Testing:
     ${response.testing}
   ## Questions?
-    ${response.questions},
+    ${response.question},
     ${response.email}
 
   `

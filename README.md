@@ -1,5 +1,5 @@
 
-  # Good README generator
+  # stuff
   
   # Table of Contents
   
@@ -15,19 +15,19 @@
   ## Description:
   ![licence](https://img.shields.io/badge/License-MIT-blue.svg "Licence Badge")
 
-    To make creating a README easier.
+    kljg
   ## How to install:
-    clone the code from the repo listed below.
+    kjhg'
   ## Usage:
-    in terminal through node.
+    kjfu6ytr
   ## Licence:
     MIT
   ## Contributors:
-    none 
+    hgddx'
   ## Testing:
-    no
+    hjgd7ytd
   ## Questions?
     undefined,
-    nick_clymer2018@yahoo.com
+    hgdjhgd
 
   
