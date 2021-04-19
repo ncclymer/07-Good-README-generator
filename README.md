@@ -42,5 +42,5 @@
 
   Git repository: https://github.com/ncclymer/07-Good-README-generator/
 
-  Demo video: ![Video](demo-video.WEBM)
+  Demo video: ![Video](/demo-video.WEBM)
   
