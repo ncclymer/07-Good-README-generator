@@ -44,11 +44,6 @@ const promptUser = () => {
     },
     {
       type: 'input',
-      name: 'question',
-      message: 'Do you have any questions?',
-    },
-    {
-      type: 'input',
       name: 'github',
       message: 'What is your Github user name?',
     },
@@ -66,20 +61,19 @@ function generateREADME(response) {
   
   # Table of Contents
   
-  - [Description](#description)
-  - [How to install](#install)
-  - [How to use this app:](#usage)
-  - [Licence info](#licence)
-  - [Contributors](#contributon)
-  - [Testing](#testing)
-  - [Questions](#questions)
-  - [Github](#github)
+  - [Description](#Description)
+  - [How to install](#Installation)
+  - [How to use this app](#Usage)
+  - [Licence info](#Licence)
+  - [Contributors](#Contributors)
+  - [Testing](#Testing)
+  - [Questions](#Questions)
   
   ## Description:
   ![licence](https://img.shields.io/badge/License-${response.licence}-blue.svg "Licence Badge")
 
     ${response.description}
-  ## How to install:
+  ## Installation:
     ${response.install}
   ## Usage:
     ${response.usage}
@@ -89,10 +83,9 @@ function generateREADME(response) {
     ${response.contributon}
   ## Testing:
     ${response.testing}
-  ## Questions?
-    ${response.question},
+  ## Questions:
+    [https://github.com/${response.github}]
     ${response.email}
-
   `
 }
 
