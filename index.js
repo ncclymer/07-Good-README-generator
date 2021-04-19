@@ -30,7 +30,7 @@ const promptUser = () => {
       type: 'list',
       name: 'licence',
       message: 'Please choose a licence:',
-      choices: ['GPL','LGPL','MIT','MPL 2.0']
+      choices: ['Apache-2.0','BSD-3-Clause','MIT','MPL 2.0']
     },
     {
       type: 'input',
@@ -78,13 +78,13 @@ function generateREADME(response) {
   ## Usage:
     ${response.usage}
   ## Licence:
-    ${response.licence}
+  https://opensource.org/licenses/${response.license}
   ## Contributors:
     ${response.contributon}
   ## Testing:
     ${response.testing}
   ## Questions:
-    [https://github.com/${response.github}]
+  https://github.com/${response.github}
     ${response.email}
   `
 }
