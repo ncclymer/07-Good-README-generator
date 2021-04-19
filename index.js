@@ -35,12 +35,12 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'contributon',
-      message: 'What are your contribution guidelines?',
+      message: 'Who is contributing to this project?',
     },  
     {
       type: 'input',
       name: 'testing',
-      message: 'Do you have and test data to add?',
+      message: 'Do you have test data to add?',
     },
     {
       type: 'input',
