@@ -38,3 +38,9 @@
 
   You can also reach me directly at: nick_clymer2018@yahoo.com
   
+  ## Demo video and repository URL:
+
+  Git repository: https://github.com/ncclymer/07-Good-README-generator/
+
+  Demo video: ![Video](demo-video.WEBM)
+  
