@@ -30,7 +30,7 @@ const promptUser = () => {
       type: 'list',
       name: 'licence',
       message: 'Please choose a licence:',
-      choices: ['Apache-2.0','BSD-3-Clause','MIT','MPL 2.0']
+      choices: ['AUR','GNU','GPL','MIT']
     },
     {
       type: 'input',
@@ -73,19 +73,28 @@ function generateREADME(response) {
   ![licence](https://img.shields.io/badge/License-${response.licence}-blue.svg "Licence Badge")
 
     ${response.description}
+
   ## Installation:
     ${response.install}
+
   ## Usage:
     ${response.usage}
+
   ## Licence:
-  https://opensource.org/licenses/${response.license}
+  NOTICE! - This application has the following licence type: ![licence](https://img.shields.io/badge/License-${response.licence}-blue.svg "Licence Badge")
+
+  Please visit https://opensource.org/licenses/ for more information.
+
   ## Contributors:
     ${response.contributon}
+
   ## Testing:
     ${response.testing}
+    
   ## Questions:
-  https://github.com/${response.github}
-    ${response.email}
+  The repository for this application can be found at: https://github.com/${response.github}
+
+  You can also reach me directly at: ${response.email}
   `
 }
 
