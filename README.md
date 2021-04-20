@@ -44,4 +44,4 @@
 
   Demo video: https://drive.google.com/file/d/18lw8XTzlFPRvUcykqySY6WjyW16NUucT/view
 
-  ![Demo] (demo-video.gif)
+  Screen shot: ![Image](demo-video.gif)
