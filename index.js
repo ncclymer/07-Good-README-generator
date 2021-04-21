@@ -30,13 +30,13 @@ const promptUser = () => {
       type: 'list',
       name: 'licence',
       message: 'Please choose a licence:',
-      choices: ['AUR','GNU','GPL','MIT']
+      choices: ['AUR', 'GNU', 'GPL', 'MIT']
     },
     {
       type: 'input',
       name: 'contributon',
       message: 'Who is contributing to this project?',
-    },  
+    },
     {
       type: 'input',
       name: 'testing',
@@ -51,12 +51,12 @@ const promptUser = () => {
       type: 'input',
       name: 'email',
       message: 'What is your email address?',
-  },
+    },
   ]);
 }
 
 function generateREADME(response) {
-    return `
+  return `
   # ${response.title}
   
   # Table of Contents
@@ -98,14 +98,14 @@ function generateREADME(response) {
   `
 }
 
-async function init () {
+async function init() {
   try {
     const response = await promptUser();
     const generate = generateREADME(response);
     await writeFileAsync('README.md', generate);
     console.log('Successfully wrote to README.md');
   }
-    catch(err) {
+  catch (err) {
     console.error(err);
   }
 }
